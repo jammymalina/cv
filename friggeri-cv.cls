@@ -176,7 +176,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 % Side block %
 %%%%%%%%%%%%%%
 
-\RequirePackage[absolute,overlay]{textpos}
+\RequirePackage[absolute, overlay]{textpos}
 \setlength{\TPHorizModule}{1cm}
 \setlength{\TPVertModule}{1cm}
 \newenvironment{aside}{%
