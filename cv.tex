@@ -1,4 +1,5 @@
-%!TEX TS-program = xelatex
+% !TEX program = xelatex
+
 \documentclass[]{friggeri-cv}
 \addbibresource{bibliography.bib}
 
@@ -13,16 +14,20 @@
   Netherlands
   ~
   \href{mailto:jakub.jantosik@gmail.com}{jakub.jantosik@gmail.com}
-  \href{tel:+31682139873}{+31682139873}
   \section{languages}
   Proficient in English
   Basic German
   \section{programming}
+  Python
   JavaScript, TypeScript
   (ECMAScript, node.js)
   React, Vue 2
-  C, Rust, Java
+  C, Rust, Golang
   Vulkan
+  \section{devops}
+  Terraform, Serverless
+  MLOps
+  Docker, Kubernetes
 \end{aside}
 
 \section{interests}
@@ -71,9 +76,20 @@ travelling, programming in general, web development, computer graphics, computer
 
 \section{experience}
 
+\textbf{Signify - Senior Cloud Engineer}
+\begin{itemize}
+  \item Since May 2021
+  \item Designed and implemented a highly available and scalable architecture using AWS services, including ECS (Fargate), Lambda, Elastic Beanstalk, DynamoDB
+  \item Led an effort in developing and deploying the application using DevOps best practices, including continuous integration and delivery, infrastructure as code, and monitoring and alerting
+  \item Reduced costs by optimizing the AWS infrastructure and implementing serverless practices for non-production environments
+  \item Mentored junior engineers and provided technical guidance on best practices for software development
+  \item Improved legacy solutions by adding unit tests, linting and automation scripts using Terraform, Docker, Bash and Python to streamline the deployment process
+  \item Participated in MLOps workshop using Sagemaker
+\end{itemize}
+
 \textbf{IKEA - Full Stack Software Engineer}
 \begin{itemize}
-  \item Since April 2020
+  \item 2020-2021
   \item Develop the new generation kitchen planner
   \item Design microservices with serverless architecture to achieve robust systems
   \item Develop a stable and performant furniture management portal and the 3D kitchen planner using modern frontend/3D frameworks - React, 3dvia
